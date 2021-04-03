@@ -1,0 +1,74 @@
+header{
+    color: darkred;
+    text-align: center;
+    padding: 15px;
+    display: grid;
+    grid-column: 70%;
+}
+nav{
+    background-color: navajowhite;
+    text-align: center;
+    padding: 41px;
+    height: 200px;
+}
+nav p{
+    color: darkblue;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+nav li{
+    line-height: 3rem;
+    position: relative;
+}
+nav li ul{
+    color: crimson;
+    display: none ;
+    position: absolute;
+}
+nav li:hover > ul{
+    display: block;
+}
+nav a{
+    color: crimson;
+    display: block;
+    padding: 0 2.5em;
+    width: 170px;
+    text-decoration: none;
+    transition: .4s;
+}
+nav a:hover{
+    background: chartreuse;
+}
+nav ul ul ul{
+    display: none;
+}
+nav > ul{
+    background: lightgreen;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+nav > ul > li{
+    float: left;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 75%  25%;
+}
+section{
+    background-color: firebrick;
+    padding: 5px;
+}
+aside{
+    background-color: thistle;
+}
+footer{
+    background-color: black;
+    color: whitesmoke;
+    text-align: right;
+    padding: 10px;
+}

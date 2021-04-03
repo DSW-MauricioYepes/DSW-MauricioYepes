@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/encabezado unad.jpg" alt="encabezado" width="1317">
+        <h1>Etiquetas básicas de html, atributos y valores</h1>
+    </header>
+    <hr>
+    <nav>
+        <p>Menú</p>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Temas</a>
+                <ul>
+                    <li><a href="tema 1.html">Tema 1</a></li>
+                    <li><a href="tema 2.html">Tema 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Recursos</a>
+                <ul>
+                    <li><a href="recurso 1.html">Recurso 1</a></li>
+                    <li><a href="recurso 2.html">Recurso 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Aprendizaje</a>
+                <ul>
+                    <li><a href="actividad 1.html">Actividad 1</a></li>
+                    <li><a href="actividad 2.html">Actividad 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Acerca de</a>
+                <ul>
+                    <li><a href="autor.html">Autor</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <div class="contenedor">
+        <section>
+            <article>
+                <h3>Atributos</h3>
+                <p>
+                    Los atributos, son palabras especiales utilizadas dentro de la etiqueta de apertura, <br>
+                    para controlar el comportamiento del elemento. Los atributos de HTML son un modificador de un tipo
+                    <br>
+                    de elemento de HTML. Un atributo tampoco modifica la funcionalidad por defecto de un tipo de
+                    elemento <br>
+                    o proporciona funcionalidad a ciertos tipos de elementos incapaces de funcionar correctamente sin
+                    ellos. <br>
+                    En sintaxis HTML, un atributo se añade a una etiqueta de inicio de HTML.
+                <h6>Definición de Atributos HTML, recuperado de https://es.wikipedia.org/wiki/Atributo_HTML</h6>
+                </p>
+                <hr>
+                <h4>Descripción</h4>
+                <p>
+                    Los atributos de HTML generalmente se muestran como una pareja nombre-valor, separados por =, <br>
+                    y están escritos dentro de la etiqueta de inicio de un elemento, después del nombre del elemento.
+                <h6>Definición de Atributos HTML, recuperado de https://es.wikipedia.org/wiki/Atributo_HTML</h6>
+                </p>
+                <hr>
+                <h4>Atributos comunes</h4>
+                <p>
+                    La mayoría de elementos pueden tomar cualquiera de varios de los atributos comunes:
+                <ul>
+                    <li>El atributo "id" (identidad) proporciona un identificador único en el ámbito de todo <br>
+                        el documento para un elemento.</li>
+                    <li>El atributo "class" proporciona una manera de clasificar elementos similares.</li>
+                    <li>El atributo "style" Un autor puede utilizar propiedades no presentacionales de código <br>
+                        atribucional de "style" para un elemento particular.El atributo de estilo se puede <br>
+                        utilizar en cualquier elemento de HTML.</li>
+                    <li>El atributo "title" (título) se suele usar para unir explicación subtextual a un elemento. <br>
+                        En la mayoría de los navegadores, este atributo se muestra como lo que a menudo se llama <br>
+                        un tooltip o globo.</li>
+                </ul>
+                <h6>Definición de Atributos HTML, recuperado de https://es.wikipedia.org/wiki/Atributo_HTML</h6>
+                <hr>
+                <h4>Figura 1</h4>
+                <img src="img/atributos.JPG" alt="atributos">
+                <h6>Imagen atributos recuperada de <br>
+                    https://www.sutori.com/story/historia-sobre-html-su-creador-estructura-elementos-que-lo-componen-y-medios--B4SfxsEbivpyeS9g5hjf22FJ
+                </h6>
+                </p>
+                <hr>
+                <h3>Valores</h3>
+                <p>
+                    Son las propiedades que se le pueden asignar a los elementos.
+                <h6>Definición sobre valores HTML, recuperado de
+                    https://es.wikibooks.org/wiki/Lenguaje_HTML/El_c%C3%B3digo</h6>
+                </p>
+                <hr>
+                <h4>Descripción</h4>
+                <p>
+                    Por ejemplo, a html se le puede asignar un atributo para indicar en qué idioma está escrito <br>
+                    el documento (lang) y podemos asignarle como valor un código de idioma ("es" para el español, <br>
+                    "en" para el ingles...) (html lang="es")...(/html).
+                    O sea: (elemento atributo="valor")...(/elemento).
+                    Por supuesto un elemento puede tener varios atributos:
+                    (elemento atributo="valor" atributo="valor")...(/elemento).
+                <h6>Definición sobre valores HTML, recuperado de
+                    https://es.wikibooks.org/wiki/Lenguaje_HTML/El_c%C3%B3digo</h6>
+                </p>
+                <hr>
+                <h4>Ejemplos</h4>
+                <h5>Imágenes</h5>
+                <p>
+                <ul>
+                    <li>img src="dirección de la imagen" Inserta una imagen que se encuentra en la ruta indicada <br>
+                        "por dirección de la imagen". También se pueden incluir una serie de propiedades.</li>
+                </ul>
+                <h5>Creación de enlaces</h5>
+                <ul>
+                    <li>(a href="http://www.ejemplo.com") Nombre del enlace (/a) Cuando se pulsa sobre el texto <br>
+                        "Nombre del enlace" en la web, se va al vinculo indicado en la dirección de href.</li>
+                    <li>(a href="mailto:ejemplo@ejemplo.com") Nombre del enlace (/a) Cuando se pulsa sobre el texto <br>
+                        "Nombre del enlace" en la web, se abre una ventana para enviar un correo electrónico <br>
+                        a la dirección indicada.</li>
+                </ul>
+                <h6>Celaya Luna, A. (2014). Creación de páginas web: HTML 5 (pág. 1 a 60). <br>
+                    Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045</h6>
+                <hr>
+                <h4>Figura 2</h4>
+                <img src="img/valores.JPG" alt="valores">
+                <h6>Imagen valores recuperada de https://www.pinterest.com.mx/pin/838725130573349457/</h6>
+                </p>
+                <hr>
+                <h3>Comentarios finales</h3>
+                <p>
+                <ul>
+                    <li>Los atributos deben estar en la etiqueta inicial, nunca en la final.</li>
+                    <li>El orden de los atributos dentro de la etiqueta es indiferente.</li>
+                    <li>Deben separarse con un espacio en blanco del nombre del elemento y de otros atributos.</li>
+                    <li>Atributo y valor deben estar unidos por el signo: = </li>
+                    <li>Los valores deben estar encerrados con comillas, dobles o simples. <br>
+                        Esto no es totalmente cierto pero actúa como si lo fuera.</li>
+                </ul>
+                <h6>Definición sobre valores HTML, recuperado de
+                    https://es.wikibooks.org/wiki/Lenguaje_HTML/El_c%C3%B3digo</h6>
+                </p>
+                <hr>
+            </article>
+        </section>
+        <aside>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+    </div>
+    <footer>
+        <img src="img/pie de página unad.jpg" alt="pie de página" width="1312">
+        <h6>Contacto: Mauricio Yepes Jurado <br>
+            email: myepesj@unadvirtual.edu.co <br>
+            Skype: mjyepes@hotmail.com <br>
+            Fecha: 2021-04-11
+        </h6>
+    </footer>
+</body>
+
+</html>
