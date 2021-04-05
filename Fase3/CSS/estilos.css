@@ -57,7 +57,7 @@ nav > ul > li{
 }
 .contenedor{
     display: grid;
-    grid-template-columns: 75%  25%;
+    grid-template-columns: 74%  26%;
 }
 section{
     background-color: firebrick;
