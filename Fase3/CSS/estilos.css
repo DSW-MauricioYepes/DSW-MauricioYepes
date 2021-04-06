@@ -6,10 +6,11 @@ header{
     grid-column: 70%;
 }
 nav{
-    background-color: navajowhite;
+    background-color: rgb(0, 0, 0);
     text-align: center;
-    padding: 41px;
+    padding: 0px;
     height: 200px;
+    width: 100%;
 }
 nav p{
     color: darkblue;
@@ -33,7 +34,7 @@ nav li:hover > ul{
     display: block;
 }
 nav a{
-    color: crimson;
+    color: cornflowerblue;
     display: block;
     padding: 0 2.5em;
     width: 170px;
@@ -41,13 +42,13 @@ nav a{
     transition: .4s;
 }
 nav a:hover{
-    background: chartreuse;
+    background:ghostwhite;
 }
 nav ul ul ul{
     display: none;
 }
 nav > ul{
-    background: lightgreen;
+    background: rgb(0, 0, 0);
     text-align: center;
     display: table;
     width: 100%;
@@ -64,7 +65,7 @@ section{
     padding: 5px;
 }
 aside{
-    background-color: thistle;
+    background-color: cornflowerblue;
 }
 footer{
     background-color: black;
