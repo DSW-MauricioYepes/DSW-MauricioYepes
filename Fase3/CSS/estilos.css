@@ -10,7 +10,11 @@ nav{
     text-align: center;
     padding: 0px;
     height: 200px;
-    width: 100%;
+    width: 98%;
+    background-position: center;
+    background-position-x: center;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 nav p{
     color: darkblue;
@@ -63,13 +67,18 @@ nav > ul > li{
 section{
     background-color: firebrick;
     padding: 5px;
+    margin-left: 15px;
 }
 aside{
     background-color: cornflowerblue;
+    margin-right: 15px;
 }
 footer{
     background-color: black;
     color: whitesmoke;
-    text-align: right;
+    text-align: center;
     padding: 10px;
+    background-position: center;
+    margin-left: 15px;
+    margin-right: 15px;
 }
